@@ -1,19 +1,28 @@
 // TODO: Include packages needed for this application
-const inquirer = require("inquirer");
 const fs = require('fs');
-const utils = require("utils");
-const generateMarkdown = require('./utils/generateMarkdown');
+const inquirer = require('inquirer');
+const generatorMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [{
     type: "input",
     name: "Title",
     message: "What is the title of the project?",
-
+    validate: (input) => {
+        if (input === '') {
+            return "Please enter title here."
+        }
+        return true;
+    }
 }, {
     type: "input",
     name: "Description",
-    message: "Give a desciption about your project."
-
+    message: "Give a desciption about your project.",
+    validate: (input) => {
+        if (input === '') {
+            return "Please give description of your project."
+        }
+        return true;
+    }
 }, {
     type: "input",
     name: "Table of Contents",
@@ -30,9 +39,10 @@ const questions = [{
     message: "Enter project instructions and how the app is used."
 
 }, {
-    type: "input",
+    type: "list",
     name: "License",
-    message: "What license is being used?"
+    message: "What license is being used?",
+    choices: ['Apache', 'Boost', 'BSD', 'Eclipse', 'IBM', 'ISC', 'MIT', 'Mozilla', 'SIL', 'Unlicense', 'Zlib', 'None'],
 
 }, {
     type: "input",
@@ -81,7 +91,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data) {
-        writeToFile("README.md", generateMarkdown(data));
+        writeToFile("README.md", generatorMarkdown(data));
         console.log(data)
     })
 };
