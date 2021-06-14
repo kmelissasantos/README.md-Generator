@@ -60,13 +60,23 @@ const questions = [{
     name: "Email",
     message: "What is your email address?"
 
-}
-   
-
+},
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+    fs.writeFile(fileName, data, function(err) {
+        console.log(fileName)
+        console.log(data)
+        if (err) {
+            return console.log (err);
+        }
+        else {
+            console.log("Success");
+        }
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {}
