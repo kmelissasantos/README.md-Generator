@@ -16,7 +16,50 @@ const questions = [{
     message: "Give a desciption about your project."
 
 }, {
-    
+    type: "input",
+    name: "Table of Contents",
+    message: "Table of Contents"
+
+}, {
+    type: "input",
+    name: "Installation",
+    message: "What does the user need to install to run this app?",
+
+}, {
+    type: "input",
+    name: "Usage",
+    message: "Enter project instructions and how the app is used."
+
+}, {
+    type: "input",
+    name: "License",
+    message: "What license is being used?"
+
+}, {
+    type: "input",
+    name: "Contributing",
+    message: "Who contributed to this project?"
+
+}, {
+    type: "input",
+    name: "Tests",
+    message: "What commands are needed to test this app?"
+
+}, {
+    type: "input",
+    name: "Questions",
+    message: "What is your contact info for inquiries?"
+
+}, {
+    type: "input",
+    name: "Username",
+    message: "What is your Github username?"
+
+}, {
+    type: "input",
+    name: "Email",
+    message: "What is your email address?"
+
 }
    
 
