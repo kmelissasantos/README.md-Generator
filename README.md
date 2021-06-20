@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # README.md-Generator
   https://github.com/kmelissasantos/README.md-Generator
+=======
+# README generator
+  https://github.com/kmelissasantos/README.md-generator
+>>>>>>> e7c3afed389b5e751dc7a5d17a2ef3738f477012
   # Description
   Creates a command line application that dynamically generates a README.md file from a user's input.
   # Table of Contents
@@ -15,10 +20,10 @@
   In order to use this app, inquirer is needed for this project
   # License
   This project is licensed under the Unlicense license.
-
-  #Contributing
+  # Contributing
   Contributors: there are no contributors at this time
   # Tests
   The following is needed to run the test: 
   # Questions
   If you have any questions about the repo, open an issue or content kmelissasantos directly at : melissa.santosxo@gmail.com.
+
