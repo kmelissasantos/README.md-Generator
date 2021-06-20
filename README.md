@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 # README.md-Generator
   https://github.com/kmelissasantos/README.md-Generator
-=======
-# README generator
-  https://github.com/kmelissasantos/README.md-generator
->>>>>>> e7c3afed389b5e751dc7a5d17a2ef3738f477012
   # Description
   Creates a command line application that dynamically generates a README.md file from a user's input.
   # Table of Contents
