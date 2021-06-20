@@ -1,5 +1,5 @@
-# README generator
-  https://github.com/kmelissasantos/README generator
+# README.md-Generator
+  https://github.com/kmelissasantos/README.md-Generator
   # Description
   Creates a command line application that dynamically generates a README.md file from a user's input.
   # Table of Contents
@@ -9,15 +9,15 @@
   * [Contributing](#Contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  #Installation
+  # Installation
   The following necessary dependencies must be installed to run the application.
   # Usage
-  In order to use this app, Inquirer is required for this project
+  In order to use this app, inquirer is needed for this project
   # License
   This project is licensed under the Unlicense license.
 
-  # Contributing
-  Contributors: no contributors at this time
+  #Contributing
+  Contributors: there are no contributors at this time
   # Tests
   The following is needed to run the test: 
   # Questions
