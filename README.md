@@ -1,5 +1,5 @@
 # README generator
-  https://github.com/kmelissasantos/README generator
+  https://github.com/kmelissasantos/README.md-generator
   # Description
   Creates a command line application that dynamically generates a README.md file from a user's input.
   # Table of Contents
@@ -22,3 +22,5 @@
   The following is needed to run the test: 
   # Questions
   If you have any questions about the repo, open an issue or content kmelissasantos directly at : melissa.santosxo@gmail.com.
+  # Video Walk Through
+  https://youtu.be/Xkk0MVOpxPo
